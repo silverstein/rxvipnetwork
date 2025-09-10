@@ -62,7 +62,7 @@ export default function Home() {
               Turn Declining Margins
               <span className="block text-slate-900">Into</span>
               <span className="block">
-                <AuroraText className="text-amber-600" duration={3}>
+                <AuroraText className="font-bold" duration={3}>
                   Competitive Advantage
                 </AuroraText>
               </span>
