@@ -211,7 +211,22 @@ export default function Home() {
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-amber-100">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">Get In Touch</h3>
               
-              {/* Contact info removed - need actual contact details */}
+              <div className="flex flex-col sm:flex-row gap-6 justify-center mb-8">
+                <a 
+                  href="mailto:hello@rxvipnetwork.com"
+                  className="flex items-center justify-center gap-3 text-slate-700 hover:text-amber-600 transition-colors"
+                >
+                  <Mail className="w-5 h-5" />
+                  <span className="font-medium">hello@rxvipnetwork.com</span>
+                </a>
+                <a 
+                  href="tel:+15614059796"
+                  className="flex items-center justify-center gap-3 text-slate-700 hover:text-amber-600 transition-colors"
+                >
+                  <Phone className="w-5 h-5" />
+                  <span className="font-medium">(561) 405-9796</span>
+                </a>
+              </div>
               
               <p className="text-slate-600 mb-6">
                 Independent pharmacy owners only. NCPDP verification required.
