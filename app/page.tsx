@@ -63,7 +63,7 @@ export default function Home() {
             </h1>
             
             <p className="text-xl md:text-2xl text-slate-700 mb-10 max-w-3xl mx-auto">
-              Join 500+ forward-thinking independent pharmacies using AI-powered outcomes reporting and medication synchronization to win in value-based care.
+              The exclusive webinar for independent pharmacy owners ready to see what's next.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -114,34 +114,12 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <div className="bg-white p-6 rounded-xl shadow-sm border border-amber-100">
-                <Building2 className="w-10 h-10 text-amber-600 mb-4" />
-                <h3 className="font-bold text-xl text-slate-900 mb-2">500+ Pharmacies</h3>
-                <p className="text-slate-700">
-                  Independent pharmacies nationwide using our proven transformation system
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-sm border border-amber-100">
-                <TrendingUp className="w-10 h-10 text-amber-600 mb-4" />
-                <h3 className="font-bold text-xl text-slate-900 mb-2">30-40% Margin Recovery</h3>
-                <p className="text-slate-700">
-                  Average improvement in profitability through outcomes-based contracting
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-sm border border-amber-100">
-                <Users className="w-10 h-10 text-amber-600 mb-4" />
-                <h3 className="font-bold text-xl text-slate-900 mb-2">100+ Patients Per Store</h3>
-                <p className="text-slate-700">
-                  Synchronized medication programs driving predictable revenue
-                </p>
-              </div>
-            </div>
+            {/* Stats section removed - need actual verified data */}
 
             <div className="bg-gradient-to-br from-amber-600 to-amber-700 text-white p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4">Created by Dan Benamoz, RPh</h3>
               <p className="text-lg mb-4 text-amber-50">
-                After building Pharmacy Development Services and helping thousands of pharmacies thrive, Dan discovered something revolutionary—one of the top two technology innovations of his 30-year career.
+                After building Pharmacy Development Services and helping thousands of pharmacies thrive, Dan discovered something revolutionary—one of the top two technology innovations of his 45-year career.
               </p>
               <p className="text-lg font-semibold">
                 "I guarantee this will be one of the most powerful hours for your business that you could spend."
@@ -175,9 +153,9 @@ export default function Home() {
               <div className="flex items-start gap-5 p-6 bg-slate-50 rounded-xl border-l-4 border-l-amber-500">
                 <CheckCircle2 className="w-8 h-8 text-amber-600 mt-0.5 flex-shrink-0" />
                 <div>
-                  <h3 className="font-bold text-xl mb-2 text-slate-900">AI-Powered Outcomes Reporting</h3>
+                  <h3 className="font-bold text-xl mb-2 text-slate-900">A Breakthrough Innovation</h3>
                   <p className="text-lg text-slate-700">
-                    Prove your value to payers with automated clinical outcomes tracking and reporting that justifies premium reimbursements.
+                    Dan will reveal one of the top two technology innovations of his 45-year career.
                   </p>
                 </div>
               </div>
@@ -185,9 +163,9 @@ export default function Home() {
               <div className="flex items-start gap-5 p-6 bg-slate-50 rounded-xl border-l-4 border-l-amber-500">
                 <CheckCircle2 className="w-8 h-8 text-amber-600 mt-0.5 flex-shrink-0" />
                 <div>
-                  <h3 className="font-bold text-xl mb-2 text-slate-900">Medication Synchronization at Scale</h3>
+                  <h3 className="font-bold text-xl mb-2 text-slate-900">The Future is NOW</h3>
                   <p className="text-lg text-slate-700">
-                    TAPS technology included for your first 100 patients, creating predictable revenue and better patient outcomes.
+                    Learn why this is the moment that changes everything for independent pharmacy.
                   </p>
                 </div>
               </div>
@@ -195,19 +173,9 @@ export default function Home() {
               <div className="flex items-start gap-5 p-6 bg-slate-50 rounded-xl border-l-4 border-l-amber-500">
                 <CheckCircle2 className="w-8 h-8 text-amber-600 mt-0.5 flex-shrink-0" />
                 <div>
-                  <h3 className="font-bold text-xl mb-2 text-slate-900">Value-Based Care Contracting</h3>
+                  <h3 className="font-bold text-xl mb-2 text-slate-900">Live Reveal</h3>
                   <p className="text-lg text-slate-700">
-                    Access payer contracts that reward clinical excellence, not just dispensing volume—the future of pharmacy reimbursement.
-                  </p>
-                </div>
-              </div>
-              
-              <div className="flex items-start gap-5 p-6 bg-slate-50 rounded-xl border-l-4 border-l-amber-500">
-                <CheckCircle2 className="w-8 h-8 text-amber-600 mt-0.5 flex-shrink-0" />
-                <div>
-                  <h3 className="font-bold text-xl mb-2 text-slate-900">Market Consolidation Playbook</h3>
-                  <p className="text-lg text-slate-700">
-                    Learn how to acquire struggling competitors for pennies on the dollar and become the dominant player in your market.
+                    60-minute live session with Q&A - no recording of the full strategy.
                   </p>
                 </div>
               </div>
@@ -243,22 +211,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-amber-100">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">Get In Touch</h3>
               
-              <div className="flex flex-col sm:flex-row gap-6 justify-center mb-8">
-                <a 
-                  href="mailto:info@rxvipnetwork.com"
-                  className="flex items-center justify-center gap-3 text-slate-700 hover:text-amber-600 transition-colors"
-                >
-                  <Mail className="w-5 h-5" />
-                  <span className="font-medium">info@rxvipnetwork.com</span>
-                </a>
-                <a 
-                  href="tel:1-800-RXV-IP00"
-                  className="flex items-center justify-center gap-3 text-slate-700 hover:text-amber-600 transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  <span className="font-medium">1-800-RXV-IP00</span>
-                </a>
-              </div>
+              {/* Contact info removed - need actual contact details */}
               
               <p className="text-slate-600 mb-6">
                 Independent pharmacy owners only. NCPDP verification required.
@@ -308,9 +261,7 @@ export default function Home() {
               <p className="text-slate-400">
                 © 2025 RxVIP Network. All rights reserved.
               </p>
-              <p className="text-slate-500 text-sm mt-2">
-                RxVIP Network, 123 Innovation Drive, Suite 100, Austin, TX 78701
-              </p>
+              {/* Address removed - need actual address */}
             </div>
           </div>
         </div>

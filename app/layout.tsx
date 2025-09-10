@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "RxVIP Network — The Future of Independent Pharmacy",
-  description: "Join 500+ forward-thinking independent pharmacies using AI-powered outcomes reporting and medication synchronization to win in value-based care.",
-  keywords: "independent pharmacy, pharmacy network, medication synchronization, outcomes reporting, value-based care, Dan Benamoz, RxVIP Network",
+  description: "Dan Benamoz's Big Reveal - September 16, 2025. The exclusive webinar for independent pharmacy owners.",
+  keywords: "independent pharmacy, Dan Benamoz, RxVIP Network",
   openGraph: {
-    title: "RxVIP Network — Transform Your Pharmacy",
-    description: "Turn declining margins into competitive advantage with AI-powered outcomes reporting and proven transformation strategies.",
+    title: "RxVIP Network — Dan Benamoz's Big Reveal",
+    description: "The exclusive webinar for independent pharmacy owners. September 16, 2025.",
     type: "website",
     url: "https://rxvipnetwork.com",
     siteName: "RxVIP Network",
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "RxVIP Network — Transform Your Pharmacy",
-    description: "Join 500+ independent pharmacies winning in value-based care",
+    title: "RxVIP Network — Dan Benamoz's Big Reveal",
+    description: "The exclusive webinar for independent pharmacy owners",
     images: ["https://rxvipnetwork.com/og-image.jpg"],
   },
   robots: {
