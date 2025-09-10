@@ -263,6 +263,7 @@ export default function Home() {
                 </div>
               </div>
               
+              {/* Privacy and Terms links - uncomment when pages are ready
               <div className="flex flex-wrap gap-4 sm:gap-6 justify-center md:justify-start">
                 <Link href="/privacy" className="text-slate-400 hover:text-white transition-colors text-sm sm:text-base">
                   Privacy Policy
@@ -271,6 +272,7 @@ export default function Home() {
                   Terms of Service
                 </Link>
               </div>
+              */}
             </div>
             
             <div className="border-t border-slate-800 pt-8 text-center">
