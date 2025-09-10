@@ -1,5 +1,6 @@
 import { ArrowRight, CheckCircle2, Shield, TrendingUp, Users, Zap, Building2, ChevronRight, Mail, Phone } from 'lucide-react'
 import Link from 'next/link'
+import { AuroraText } from '@/components/ui/aurora-text'
 
 export default function Home() {
   return (
@@ -60,7 +61,9 @@ export default function Home() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
               Turn Declining Margins
               <span className="block text-slate-900">Into</span>
-              <span className="block text-amber-600">Competitive Advantage</span>
+              <AuroraText className="block text-amber-600" duration={3}>
+                Competitive Advantage
+              </AuroraText>
             </h1>
             
             <p className="text-xl md:text-2xl text-slate-700 mb-10 max-w-3xl mx-auto">
