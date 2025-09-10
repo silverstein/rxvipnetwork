@@ -61,9 +61,11 @@ export default function Home() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
               Turn Declining Margins
               <span className="block text-slate-900">Into</span>
-              <AuroraText className="block text-amber-600" duration={3}>
-                Competitive Advantage
-              </AuroraText>
+              <span className="block">
+                <AuroraText className="text-amber-600" duration={3}>
+                  Competitive Advantage
+                </AuroraText>
+              </span>
             </h1>
             
             <p className="text-xl md:text-2xl text-slate-700 mb-10 max-w-3xl mx-auto">
