@@ -57,9 +57,10 @@ export default function Home() {
               The Future of Independent Pharmacy is Here
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-6 leading-tight">
-              Turn Declining Margins Into
-              <span className="block text-amber-600 mt-2">Competitive Advantage</span>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
+              Turn Declining Margins
+              <span className="block text-slate-900">Into</span>
+              <span className="block text-amber-600">Competitive Advantage</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-slate-700 mb-10 max-w-3xl mx-auto">
@@ -86,15 +87,15 @@ export default function Home() {
             <div className="mt-12 flex flex-wrap justify-center gap-8 text-slate-600">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-5 h-5 text-amber-600" />
-                <span>NCPDP Verified Members Only</span>
+                <span>Independent Owners Only</span>
               </div>
               <div className="flex items-center gap-2">
                 <Shield className="w-5 h-5 text-amber-600" />
-                <span>HIPAA Compliant Platform</span>
+                <span>NCPDP Verified</span>
               </div>
               <div className="flex items-center gap-2">
-                <TrendingUp className="w-5 h-5 text-amber-600" />
-                <span>Proven ROI in 90 Days</span>
+                <Zap className="w-5 h-5 text-amber-600" />
+                <span>Live September 16</span>
               </div>
             </div>
           </div>
@@ -265,9 +266,6 @@ export default function Home() {
                 </Link>
                 <Link href="/terms" className="text-slate-400 hover:text-white transition-colors text-sm sm:text-base">
                   Terms of Service
-                </Link>
-                <Link href="/hipaa" className="text-slate-400 hover:text-white transition-colors text-sm sm:text-base">
-                  HIPAA Compliance
                 </Link>
               </div>
             </div>
